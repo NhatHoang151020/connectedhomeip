@@ -95,7 +95,7 @@ constexpr const EmberAfAttributeMinMaxValue minMaxDefaults[] = GENERATED_MIN_MAX
 GENERATED_FUNCTION_ARRAYS
 #endif
 
-chip::DataVersion clusterVersions[GENERATED_CLUSTER_COUNT]                   = { 0 };
+chip::DataVersion clusterVersions[GENERATED_CLUSTER_COUNT]          = { 0 };
 constexpr const EmberAfAttributeMetadata generatedAttributes[]      = GENERATED_ATTRIBUTES;
 constexpr const EmberAfCluster generatedClusters[]                  = GENERATED_CLUSTERS;
 constexpr const EmberAfEndpointType generatedEmberAfEndpointTypes[] = GENERATED_ENDPOINT_TYPES;
