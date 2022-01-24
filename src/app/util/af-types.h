@@ -117,7 +117,7 @@ typedef struct
      * if this cluster has no functions.
      */
     const EmberAfGenericClusterFunction * functions;
-    uint32_t * const version;
+    chip::DataVersion * const version;
 } EmberAfCluster;
 
 /**

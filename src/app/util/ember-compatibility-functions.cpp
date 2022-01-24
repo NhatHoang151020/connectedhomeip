@@ -24,7 +24,6 @@
 #include <access/AccessControl.h>
 #include <app/ClusterInfo.h>
 #include <app/ConcreteAttributePath.h>
-#include <app/ConcreteClusterPath.h>
 #include <app/InteractionModelEngine.h>
 #include <app/reporting/Engine.h>
 #include <app/reporting/reporting.h>
